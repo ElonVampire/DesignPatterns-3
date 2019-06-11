@@ -68,7 +68,7 @@ The adapater pattern is useful for ensuring that a client object with an incompa
 
 The commonly used analogue example of this is the use of different travel adapters with foreign power outlets. Where a NZ plug my not fit a UK outlet. Through the use of a travel adapter as a middleman, they are able to be use together. 
 
-![alt text](https://github.com/adam-p/markdown-here/Diagrams/AdapterPattern.JPG "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/AdapterPattern.JPG "Logo Title Text 1")
 
 #Bridge Pattern
 
