@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Adapter_Pattern.Adapter;
+using Adapter_Pattern.Client;
+using System;
 
 namespace Adapter_Pattern
 {
@@ -6,7 +8,9 @@ namespace Adapter_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(new DataRenderer(new DataProviderAdapter())._information);
+            Console.WriteLine(new DataRenderer(new AlternativeDataProviderAdapter())._information);
+            
         }
     }
 }

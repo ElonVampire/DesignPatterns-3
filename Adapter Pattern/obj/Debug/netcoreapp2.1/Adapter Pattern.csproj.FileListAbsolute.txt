@@ -1,0 +1,11 @@
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\obj\Debug\netcoreapp2.1\Adapter Pattern.csprojAssemblyReference.cache
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\obj\Debug\netcoreapp2.1\Adapter Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\obj\Debug\netcoreapp2.1\Adapter Pattern.AssemblyInfoInputs.cache
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\obj\Debug\netcoreapp2.1\Adapter Pattern.AssemblyInfo.cs
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\bin\Debug\netcoreapp2.1\Adapter Pattern.deps.json
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\bin\Debug\netcoreapp2.1\Adapter Pattern.runtimeconfig.json
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\bin\Debug\netcoreapp2.1\Adapter Pattern.runtimeconfig.dev.json
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\bin\Debug\netcoreapp2.1\Adapter Pattern.dll
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\bin\Debug\netcoreapp2.1\Adapter Pattern.pdb
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\obj\Debug\netcoreapp2.1\Adapter Pattern.dll
+C:\Users\Thomas\Source\Repos\DesignPatterns\Adapter Pattern\obj\Debug\netcoreapp2.1\Adapter Pattern.pdb
