@@ -85,14 +85,16 @@ This is problematic as the implementation directly calls its abstraction and the
 
 Consider this table of possible equiptment purchases from the latest catalogue released from Fictitious Contractor Supplies Ltd
 
-| Item           | Description      | Price |
-|----------------|:----------------:|------:|
-|Hammer          |Hits things well  | $10   |
-|Screwdriver     |Turns screws well | $8    |
-|Screws (Philips)|Turns well        | $5    |
-|Screws (Flat)   |Turns just as well| $5    |
-|Nails           |sharp!            | $3    |
-|Nails (Golden)  |Sharp, shiny!     | $1000 |
+| Item                | Description            | Price |
+|---------------------|:----------------------:|------:|
+|Hammer               |Hits things just as well| $10   |
+|Hammer (Golden)      |Hits things well| $10   | $500  |
+|Screwdriver          |Turns screws well       | $8    |
+|Screwdriver (Golden) |Hits things well| $10   | $500  |
+|Screws (Philips)     |Turns well              | $5    |
+|Screws (Flat)        |Turns just as well      | $5    |
+|Nails                |sharp!                  | $3    |
+|Nails (Golden)       |Sharp, shiny!           | $1000 |
 
 Now consider that the higher ups at Fictitious Contractor Supplies Ltd notice that they sell related items together frequently so they wish to offer deals based on these related items. 
 
@@ -100,6 +102,18 @@ Being the lazy software developer you are, you have done no DIY ever and have no
 
 Firstly lets look at what could happen should the bridge pattern not be used to solve this solution. As items are added to the catalogue, the number of possible combo options becomes exponential. 
 
+Firstly the higher ups decide that they want to provide package deals based on our current catalogue. If we listed all the combonations out it would look something like this. 
 
+![Here are a few items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Illustrative/aFewItems.jpg "A few item packages.")
 
-#Builder Pattern
+This is fairly simple there are only four package deals, and we can easily represent this through inheritance. However the higher up decide that they want to start import steel tools because they realized that they were more durable that gold tools. 
+
+![Here are a few more items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Illustrative/aFewMoreItems.jpg "A few more item packages.")
+
+Okay this is fine, it only added two more packages to our inheritanc hierachy. We are starting to get a little bit more code duplication but nothing too terrible. Then you receive an email, they are going to start offering hardhat options with all their package deals. This is going to completely break the system, the items now looks like this. 
+
+![Here are a lot more items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Illustrative/aLotMoreItems.jpg "A lot more item packages.")
+
+Oh no this has doubled the amount of item packages we have and now our entire system is on fire. But it isnt realistic to enumerate all these out like this a more realistic way to model these items
+
+# Builder Pattern
