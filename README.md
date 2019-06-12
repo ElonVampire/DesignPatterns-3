@@ -60,6 +60,7 @@ weak points in languages
 Same as other abstractions
 
 # Adapter Pattern
+===
 
 ## What is it?
 
@@ -73,14 +74,33 @@ This diagram shows the relationship between all collaborators within the adapter
 
 This is fixed by introducing the adpater pattern as shown by the Adapter interface and the Concrete Adapater class. The interface exposes the correct methods that the Client is expecting, in this case Operation. And the ConcreteAdapter is implementing that method by calling the adapted operation. Thus the client is effectively calling the adaptee function and getting the functionality it needs while also retaining its interface it expects to conform to. 
 
-# Bridge Pattern
+#Bridge Pattern
 
 The bridge pattern can be a tricky pattern to master as well as being difficult to spot within a code base. The bridge patterns intent is to decouple and abstraction from its implementation. This is so that both parts are able to be changed independantly of one another. 
 
 We know that by default an abstraction and its implementation are tightly coupled. For example given an interface as the abstraction and a class that implements this abstraction as the implementation we get a relationship as shown below. 
 
-![Tightly coupled abstraction with its implementation](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/AbstractionWithoutBridge.jpg "Tightly coupled abstraction with its implementation")
+![Tightly coupled abstraction with its implementation](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/TightlyCoupledAbs.JPG "Tightly coupled abstraction with its implementation")
 
-This is problematic as either the 
+This is problematic as the implementation directly calls its abstraction and these couldn't be independantly swapped out as needed. 
+
+Consider this table of possible equiptment purchases from the latest catalogue released from Fictitious Contractor Supplies Ltd
+
+| Item           | Description      | Price |
+|----------------|:----------------:|------:|
+|Hammer          |Hits things well  | $10   |
+|Screwdriver     |Turns screws well | $8    |
+|Screws (Philips)|Turns well        | $5    |
+|Screws (Flat)   |Turns just as well| $5    |
+|Nails           |sharp!            | $3    |
+|Nails (Golden)  |Sharp, shiny!     | $1000 |
+
+Now consider that the higher ups at Fictitious Contractor Supplies Ltd notice that they sell related items together frequently so they wish to offer deals based on these related items. 
+
+Being the lazy software developer you are, you have done no DIY ever and have no idea what any of these items could be related to one another. 
+
+Firstly lets look at what could happen should the bridge pattern not be used to solve this solution. As items are added to the catalogue, the number of possible combo options becomes exponential. 
+
+
 
 #Builder Pattern
