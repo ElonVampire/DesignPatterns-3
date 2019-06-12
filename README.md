@@ -60,7 +60,6 @@ weak points in languages
 Same as other abstractions
 
 # Adapter Pattern
-===
 
 ## What is it?
 
