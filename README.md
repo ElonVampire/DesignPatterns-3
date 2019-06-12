@@ -60,7 +60,6 @@ weak points in languages
 Same as other abstractions
 
 # Adapter Pattern
-===
 
 ## What is it?
 
@@ -80,7 +79,7 @@ The bridge pattern can be a tricky pattern to master as well as being difficult 
 
 We know that by default an abstraction and its implementation are tightly coupled. For example given an interface as the abstraction and a class that implements this abstraction as the implementation we get a relationship as shown below. 
 
-![Tightly coupled abstraction with its implementation](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/TightlyCoupledAbs.JPG "Tightly coupled abstraction with its implementation")
+![Tightly coupled abstraction with its implementation](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/AbstractionWithoutBridge.jpg "Tightly coupled abstraction with its implementation")
 
 This is problematic as either the 
 
