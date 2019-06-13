@@ -122,4 +122,6 @@ This is much easier to map and includes the expanded possiblities of people want
 
 To bring this full circle, the class diagram would then look something like this,
 
+![Here is a complex class diagram of the bridge pattern.](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/BridgeComplex.JPG "Here is a complex class diagram of the bridge pattern.")
+
 # Builder Pattern
