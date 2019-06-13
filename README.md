@@ -118,6 +118,8 @@ Oh no this has doubled the amount of item packages we have and now our entire sy
 
 ![Here are a lot more items in a simplified manner](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/Illustrative/TooManyItemsSimplified.JPG "A lot more items in a more simplified manner")
 
+This is much easier to map and includes the expanded possiblities of people wanting to get screw packs with their primary hammer purchase and vice versa. To bring this back to code if we were to make a combo deal we wouldnt need to make complex inheritance trees with the need to add multiple classes for every new item in the system. Instead we have a primary object. In the example this might be a golden hammer. In the bridge pattern this becomes our refined abstraction which has an abstraction class of Tool. This base class know of an abstraction of the implementator which is our combo deal through use of composition in the base class. This implementor implements the details of the combo deal.
 
+To bring this full circle, the class diagram would then look something like this,
 
 # Builder Pattern
