@@ -114,6 +114,10 @@ Okay this is fine, it only added two more packages to our inheritanc hierachy. W
 
 ![Here are a lot more items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/Illustrative/ALotMoreItems.JPG "A lot more item packages.")
 
-Oh no this has doubled the amount of item packages we have and now our entire system is on fire. But it isnt realistic to enumerate all these out like this a more realistic way to model these items
+Oh no this has doubled the amount of item packages we have and now our entire system is on fire. But it isnt realistic to enumerate all these out like this. A more realistic way to model these items would be to group the common items together. In this case, it would be easier to lump the primary items in the combo with the secondary combo items. The diagram above would become more simplified with the below diagram.
+
+![Here are a lot more items in a simplified manner](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/Illustrative/TooManyItemsSimplified.JPG "A lot more items in a more simplified manner")
+
+
 
 # Builder Pattern
