@@ -104,15 +104,15 @@ Firstly lets look at what could happen should the bridge pattern not be used to 
 
 Firstly the higher ups decide that they want to provide package deals based on our current catalogue. If we listed all the combonations out it would look something like this. 
 
-![Here are a few items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Illustrative/aFewItems.jpg "A few item packages.")
+![Here are a few items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/Illustrative/AFewItems.jpg "A few item packages.")
 
 This is fairly simple there are only four package deals, and we can easily represent this through inheritance. However the higher up decide that they want to start import steel tools because they realized that they were more durable that gold tools. 
 
-![Here are a few more items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Illustrative/aFewMoreItems.jpg "A few more item packages.")
+![Here are a few more items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/Illustrative/AFewMoreItems.jpg "A few more item packages.")
 
 Okay this is fine, it only added two more packages to our inheritanc hierachy. We are starting to get a little bit more code duplication but nothing too terrible. Then you receive an email, they are going to start offering hardhat options with all their package deals. This is going to completely break the system, the items now looks like this. 
 
-![Here are a lot more items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Illustrative/aLotMoreItems.jpg "A lot more item packages.")
+![Here are a lot more items](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/Illustrative/ALotMoreItems.jpg "A lot more item packages.")
 
 Oh no this has doubled the amount of item packages we have and now our entire system is on fire. But it isnt realistic to enumerate all these out like this a more realistic way to model these items
 
