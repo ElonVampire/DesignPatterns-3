@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Bridge_Pattern.Abstraction;
+using Bridge_Pattern.Implementor;
+using System;
 
 namespace Bridge_Pattern
 {
@@ -6,7 +8,8 @@ namespace Bridge_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Hammer(new Nails()).PrintComboDeal();
+            Console.ReadKey();
         }
     }
 }

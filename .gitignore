@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/DesignPatternImplementations/v16/Server/sqlite3
+/Bridge Pattern/bin/Debug/netcoreapp2.1
+/Bridge Pattern/obj/Debug/netcoreapp2.1
