@@ -10,6 +10,8 @@ namespace Bridge_Pattern
         {
             new Hammer(new Nails()).PrintComboDeal();
             Console.ReadKey();
+            new Hammer(new Screws()).PrintComboDeal();
+            Console.ReadKey();
         }
     }
 }
