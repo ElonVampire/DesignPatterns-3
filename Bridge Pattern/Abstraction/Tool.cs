@@ -16,7 +16,14 @@ namespace Bridge_Pattern.Abstraction
 
         public void PrintComboDeal()
         {
-
+            Console.WriteLine("Item Combo");
+            Console.WriteLine("----------------------");
+            foreach(Item anItem in _comboDeal.GetItems())
+            {
+                Console.WriteLine(anItem.Name);
+                Console.WriteLine(anItem.Price);
+                Console.WriteLine("......................");
+            }
         }
     }
 }
