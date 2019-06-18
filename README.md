@@ -124,5 +124,13 @@ To bring this full circle, the class diagram would then look something like this
 
 ![Here is a complex class diagram of the bridge pattern.](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/BridgeComplex.JPG "Here is a complex class diagram of the bridge pattern.")
 
+In the code this looks something more like this.
+
+<div style="display: flex">
+    <div>
+        asdasdas
+    </div>
+
+</div>
 
 # Builder Pattern
