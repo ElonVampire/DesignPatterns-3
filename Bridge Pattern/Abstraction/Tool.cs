@@ -8,6 +8,7 @@ namespace Bridge_Pattern.Abstraction
     class Tool
     {
         private IComboDeal _comboDeal;
+        protected Item _primaryItem;
 
         public Tool(IComboDeal comboDeal)
         {
@@ -16,6 +17,9 @@ namespace Bridge_Pattern.Abstraction
 
         public void PrintComboDeal()
         {
+            Console.WriteLine("========================");
+            Console.WriteLine(string.Format("Primary Item: {0}", _primaryItem.Name));
+            Console.WriteLine(string.Format("Cost: {0}", _primaryItem.Price));
             Console.WriteLine("----------------------");
             foreach(Item anItem in _comboDeal.GetItems())
             {
