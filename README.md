@@ -124,15 +124,8 @@ To bring this full circle, the class diagram would then look something like this
 
 ![Here is a complex class diagram of the bridge pattern.](https://github.com/ThomasMicol/DesignPatterns/blob/master/Diagrams/BridgeComplex.JPG "Here is a complex class diagram of the bridge pattern.")
 
-In the code this looks something more like this.
+Now if we hop into the code we can instantiate a Hammer and Nails combo and output its contents to the screen by simply instantiating the object and giving it a combo item then calling the print combo items method on the abstraction.
 
-<div style="display: flex">
-    <div>
-        asdasdas
-    </div>
-    <div>
-        dfgdfgdfgfdg
-    </div>
-</div>
+![Here is a complex class diagram of the bridge pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Bridge%20Pattern/Hammer%20Instantiation.JPG "Here is a complex class diagram of the bridge pattern.")
 
 # Builder Pattern
