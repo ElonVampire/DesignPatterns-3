@@ -7,7 +7,6 @@ namespace Bridge_Pattern.Abstraction
 {
     class Hammer : Tool
     {
-        private Item _primaryItem;
 
         public Hammer(IComboDeal comboDeal) : base(comboDeal)
         {
@@ -19,12 +18,5 @@ namespace Bridge_Pattern.Abstraction
             };
         }
 
-        public new void PrintComboDeal()
-        {
-            Console.WriteLine("========================");
-            Console.WriteLine(string.Format("Primary Item: {0}", _primaryItem.Name)); 
-            Console.WriteLine(string.Format("Cost: {0}", _primaryItem.Price)); 
-            base.PrintComboDeal();
-        }
     }
 }
