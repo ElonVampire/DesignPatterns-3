@@ -36,7 +36,7 @@ namespace BuilderPattern
                 totalRevenue += aBusiness.GetRevenue();
             }
             Console.WriteLine("-----------------------------------------------");
-            Console.WriteLine(String.Format("In total I earn {0} a year and it is great!", totalRevenue.ToString()));
+            Console.WriteLine(String.Format("In total I earn ${0} a year and it is great!", totalRevenue.ToString()));
         }
     }
 }
