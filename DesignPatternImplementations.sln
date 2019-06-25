@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter Pattern", "Adapter 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge Pattern", "Bridge Pattern\Bridge Pattern.csproj", "{D36F0EA1-45F7-4053-9683-E53EBC7D251C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{3929103C-293F-4127-A73C-F2A7D0971316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "BuilderPattern\Builder Pattern.csproj", "{3929103C-293F-4127-A73C-F2A7D0971316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
