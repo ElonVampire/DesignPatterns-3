@@ -147,6 +147,12 @@ The chain of Responsibility can easily be represented with a set of objects with
 
 ![Here is a simple diagram of the chain.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/Illustrative/CoR%20Relationships.JPG "Here is a simple diagram of the chain.")
 
+Consider a standard chain of command in a large organization. For example if worker wanted resource consent for something that was going to cost the company $12,000. Usually you would report to your direct boss in this case it might be an assistant manager. But as it turns out this is far too much money for the assistant manager to consent to so they need to ask their direct boss. This loop of "send request to boss - boss cant clear that much - pass request to next boss" might go on for a few iterations till the request hits a manager who is able to clear consent for $12,000. They will then run their logic on the request to see if it is a valid use of the companies money. If it is they will send back an approved response and if not they will send back a declined response. 
+
+All the while the original worker who filed the request doesn't know about the ever increasing status of his/her request as they simply fired it off to their manager and are expecting them to give them the response when they can, as is all the other intermediary managers inbetween.  
+
+This is a good example of the CoR pattern as it is a clear real world parallel with how the pattern works. At each step we can see a primary check is done on the request as each manager isnt going to run their consent logic on the request when they dont have the consent authority to clear it anyway. So they check if the request amount is less than their allowed resource consent limit. If it is they run their complex self contained consenting logic on the request and give back approved or declined. However, if they lack the consenting authority, they simply know who is the next manager in the chain and they pass the request to them.
+
 # Command Pattern
 
 The command pattern is a simple one, it simple has client code that calls a granular class that contains just the logic for the command 
