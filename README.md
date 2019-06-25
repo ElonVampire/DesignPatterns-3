@@ -153,6 +153,11 @@ All the while the original worker who filed the request doesn't know about the e
 
 This is a good example of the CoR pattern as it is a clear real world parallel with how the pattern works. At each step we can see a primary check is done on the request as each manager isnt going to run their consent logic on the request when they dont have the consent authority to clear it anyway. So they check if the request amount is less than their allowed resource consent limit. If it is they run their complex self contained consenting logic on the request and give back approved or declined. However, if they lack the consenting authority, they simply know who is the next manager in the chain and they pass the request to them.
 
+## What it Solves
+
+
 # Command Pattern
 
 The command pattern is a simple one, it simple has client code that calls a granular class that contains just the logic for the command 
+
+## What it Solves
