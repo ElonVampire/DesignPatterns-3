@@ -134,3 +134,6 @@ The builder pattern is used to simplify the construction of complex object into 
 
 This solves three primary issues,
  * too many parameters - Often when objects have complex constructions steps the state of such a complex object is passed into the constructor as parameters. This is an issue as you have to pass these parameters in at every instantiation, which can cause the code to break should the types or data passed into the constructor change. 
+* Order Dependant - These parameters are also order dependent. Therefore should the order of the parameters change, the code will break in all locations the construction of that object is used. For lesser used objects this can be fine but in cases where the object is used many times in multiple locations throughout the system, this can become a nightmare.
+* Different constructions - Often you will want there to be differnt results of a construction process given different data. By abstracting the construction from the data we are able to do this. 
+
