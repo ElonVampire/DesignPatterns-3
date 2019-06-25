@@ -2,15 +2,11 @@
 
 namespace BuilderPattern
 {
-    internal class BusinessBuilder
+    public abstract class BusinessBuilder
     {
         protected IBusiness _business;
 
-        public BusinessBuilder()
-        {
-        }
-
-        internal void CreateBuisness()
+        public void CreateBuisness()
         {
             _business = new Business();
             SetName();
@@ -18,24 +14,9 @@ namespace BuilderPattern
             SetIndustry();
         }
 
-        private void SetName()
-        {
-            _business.SetName("Website Corp");
-        }
-
-        private void SetRevenue()
-        {
-            _business.SetRevenue(10000);
-        }
-
-        private void SetIndustry()
-        {
-            _business.SetIndustry("Technology");
-        }
-
-        public IBusiness GetBusiness()
-        {
-            return _business;
-        }
+        public abstract void SetName();
+        public abstract void SetRevenue();
+        public abstract void SetIndustry();
+        public abstract IBusiness GetBusiness();
     }
 }
