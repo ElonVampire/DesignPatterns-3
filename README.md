@@ -137,3 +137,10 @@ This solves three primary issues,
 * Order Dependant - These parameters are also order dependent. Therefore should the order of the parameters change, the code will break in all locations the construction of that object is used. For lesser used objects this can be fine but in cases where the object is used many times in multiple locations throughout the system, this can become a nightmare.
 * Different constructions - Often you will want there to be differnt results of a construction process given different data. By abstracting the construction from the data we are able to do this. 
 
+# Chain of Responsibility
+
+The chain of Responsibility pattern is comprised of a set of senders and receivers who only know about the next sender/receiver in the chain. The pattern is used for setting up complex sets of check logic in chains of senders receivers so that the client code that starts the check doesn't need to know about what point in the chain the request got to, all that matters is that the response was returned.
+
+# Command Pattern
+
+The command pattern is a simple one, it simple has client code that calls a granular class that contains just the logic for the command 
