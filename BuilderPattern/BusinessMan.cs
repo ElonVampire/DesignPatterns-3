@@ -17,17 +17,17 @@ namespace BuilderPattern
         public void SetupNewBusiness(IBusiness aBusiness)
         {
             myBusinesses.Add(aBusiness);
-            Console.Write(String.Format("The Business {0} was added successfully", aBusiness.GetName()));
+            Console.Write(String.Format("The Business {0} was added successfully\n", aBusiness.GetName()));
         }
 
         public void PrintMyBusinesses()
         {
             int totalRevenue = 0;
-            Console.WriteLine(String.Format("I am {0} and I own {1} businesses. \n These businesses are...", Name, myBusinesses.Count));
+            Console.WriteLine(String.Format("I am {0} and I own {1} businesses.\nThese businesses are...", Name, myBusinesses.Count));
             Console.WriteLine("-----------------------------------------------");
             foreach(IBusiness aBusiness in myBusinesses)
             {
-                Console.WriteLine(String.Format("Business name: {0} \n Revenue: {1} \n Industry: {2}",
+                Console.WriteLine(String.Format("Business name: {0} \nRevenue: {1} \nIndustry: {2}",
                     aBusiness.GetName(),
                     aBusiness.GetRevenue().ToString(),
                     aBusiness.GetIndustry()
