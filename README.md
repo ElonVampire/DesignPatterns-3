@@ -141,6 +141,12 @@ This solves three primary issues,
 
 The chain of Responsibility pattern is comprised of a set of senders and receivers who only know about the next sender/receiver in the chain. The pattern is used for setting up complex sets of check logic in chains of senders receivers so that the client code that starts the check doesn't need to know about what point in the chain the request got to, all that matters is that the response was returned.
 
+A primary feature of the chain of responsibility is that the links in the chain only know about the next link in the sequence and the client code only calls the first link in the chain. For example in a chain of 5 items, the fourth link may be the one to finally return the correct response. But the client code that initially called the first link didnt even know that the fourth link existed. At the same time link four has no concept of it being the fourth call in a chain and only knows that should it fail it needs to pass the call onto link 5. But because the call didnt reach the fifth and final link, the fifth link has no idea that the calls even happened.
+
+The chain of Responsibility can easily be represented with a set of objects with references to one another in a chain. The below image illustrates the relationship between client and chain.
+
+
+
 # Command Pattern
 
 The command pattern is a simple one, it simple has client code that calls a granular class that contains just the logic for the command 
