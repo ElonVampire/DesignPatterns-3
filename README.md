@@ -129,3 +129,8 @@ Now if we hop into the code we can instantiate a Hammer and Nails combo and outp
 ![Here is a complex class diagram of the bridge pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Bridge%20Pattern/Hammer%20Instantiation.JPG "Here is a complex class diagram of the bridge pattern.")
 
 # Builder Pattern
+
+The builder pattern is used to simplify the construction of complex object into a standardized interface. This allows for the same construction process to create different representations. 
+
+This solves three primary issues,
+ * too many parameters - Often when objects have complex constructions steps the state of such a complex object is passed into the constructor as parameters. This is an issue as you have to pass these parameters in at every instantiation, which can cause the code to break should the types or data passed into the constructor change. 
