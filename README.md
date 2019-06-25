@@ -145,7 +145,7 @@ A primary feature of the chain of responsibility is that the links in the chain 
 
 The chain of Responsibility can easily be represented with a set of objects with references to one another in a chain. The below image illustrates the relationship between client and chain.
 
-
+![Here is a simple diagram of the chain.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/Illustrative/CoR%20Relationships.JPG "Here is a simple diagram of the chain.")
 
 # Command Pattern
 
