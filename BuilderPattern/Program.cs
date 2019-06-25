@@ -8,7 +8,9 @@ namespace BuilderPattern
         {
             BusinessMan boss = new BusinessMan("Jeff");
             BusinessBuilder builder = new BusinessBuilder();
-            boss.SetupNewBusiness()
+            builder.CreateBuisness();
+            boss.SetupNewBusiness(builder.GetBusiness());
+            boss.PrintMyBusinesses();
         }
     }
 }
