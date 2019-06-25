@@ -9,14 +9,16 @@ namespace BuilderPattern
         public void CreateBuisness()
         {
             _business = new Business();
-            SetName();
-            SetRevenue();
-            SetIndustry();
+        }
+
+        public IBusiness GetBusiness()
+        {
+            return _business;
         }
 
         public abstract void SetName();
         public abstract void SetRevenue();
         public abstract void SetIndustry();
-        public abstract IBusiness GetBusiness();
+        
     }
 }

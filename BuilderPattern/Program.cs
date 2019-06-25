@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Builder_Pattern.Refined_Builders;
+using System;
 
 namespace BuilderPattern
 {
@@ -7,9 +8,9 @@ namespace BuilderPattern
         static void Main(string[] args)
         {
             BusinessMan boss = new BusinessMan("Jeff");
-            BusinessBuilder builder = new BusinessBuilder();
-            builder.CreateBuisness();
-            boss.SetupNewBusiness(builder.GetBusiness());
+            PortfolioBuilder portfolioBuilder = new PortfolioBuilder();
+            portfolioBuilder.BuildPortfolio();
+            boss.SetupPortfolio(portfolioBuilder.GetPortfolio());
             boss.PrintMyBusinesses();
         }
     }

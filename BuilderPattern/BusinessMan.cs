@@ -6,12 +6,22 @@ namespace BuilderPattern
     public class BusinessMan
     {
         protected string Name;
+        
         protected List<IBusiness> myBusinesses;
 
         public BusinessMan(string name)
         {
             Name = name;
             myBusinesses = new List<IBusiness>();
+        }
+
+        internal void SetupPortfolio(List<BusinessMaker> aPortfolio)
+        {
+            foreach(BusinessMaker aMaker in aPortfolio)
+            {
+                aMaker.BuildBusiness();
+                myBusinesses.Add(aMaker.GetBusiness());
+            }
         }
 
         public void SetupNewBusiness(IBusiness aBusiness)
