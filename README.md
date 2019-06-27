@@ -157,6 +157,7 @@ This snippet shows the business builder abstract class which defines the way in 
 
 Above is a code snippet of the portfolio builder which has a build portfolio method which is a set of business makers each with their own concrete business maker. In this case the website retail and hospitality businesses. When the portfolio builder class is asked for the portfolio the businesses are also built up and they are all stored in the portfolio builder _portfolio attribute ready to be returned back when the get method is called.
 
+![Here is a snippet of the concrete builder class.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Builder%20Pattern/ConcreteBuilderSnippet.PNG "Here is a snippet of the concrete builder class")
 
 # Chain of Responsibility
 
