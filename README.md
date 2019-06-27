@@ -153,6 +153,8 @@ The above code snippet, shows the implementation of the business maker class. Th
 
 This snippet shows the business builder abstract class which defines the way in which the maker object should always be able to interact with concrete business builders. 
 
+![Here is a snippet of the portfolio builder concrete class.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Builder%20Pattern/PortfolioSnippet.PNG "Here is a snippet of the portfolio builder concrete class")
+
 
 # Chain of Responsibility
 
