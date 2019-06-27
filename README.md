@@ -141,10 +141,17 @@ By abstracting away the implementation details of the construction of complex ob
 
 Consider the example code; The example follows a businessman who wishes to be able to spin up many different business to quickly expand his portfolio. He decides it will be faster and less stressful to just hire an executive business maker to spin up businesses for him so that he can sit on a beach in the bahamas. 
 
+![Here is a snippet of the businessman class.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Builder%20Pattern/BusinessmanSnippet.PNG "Here is a snippet of the businessman class")
+
 The above picture displayes the simple implementation of the businessman class. We can see how little responsibility the business man has in he construction of the businesses he owns All he knows is the business list he has that is returned from the executive maker.
 
+![Here is a snippet of the business maker class.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Builder%20Pattern/BusinessMakerSnippet.PNG "Here is a snippet of the business maker class")
 
+The above code snippet, shows the implementation of the business maker class. This class defines the order in which the construction process of the products happens which happens in BuildBsuiness method. The maker component of the builder pattern also has a concrete builder object passed into it. In this case the concrete builder is our portfolio builder. This property is defined as being readonly and is of type of the abstract business builder.
 
+![Here is a snippet of the business builder class.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Builder%20Pattern/BusinessBuilderSnippet.PNG "Here is a snippet of the business builder class")
+
+This snippet shows the business builder abstract class which defines the way in which the maker object should always be able to interact with concrete business builders. 
 
 
 # Chain of Responsibility
