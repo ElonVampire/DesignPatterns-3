@@ -137,6 +137,16 @@ This solves three primary issues,
 * Order Dependant - These parameters are also order dependent. Therefore should the order of the parameters change, the code will break in all locations the construction of that object is used. For lesser used objects this can be fine but in cases where the object is used many times in multiple locations throughout the system, this can become a nightmare.
 * Different constructions - Often you will want there to be differnt results of a construction process given different data. By abstracting the construction from the data we are able to do this. 
 
+By abstracting away the implementation details of the construction of complex objects, we are able to decouple the client code from the object it would otherwise need to execute to get the same product of the construction process. 
+
+Consider the example code; The example follows a businessman who wishes to be able to spin up many different business to quickly expand his portfolio. He decides it will be faster and less stressful to just hire an executive business maker to spin up businesses for him so that he can sit on a beach in the bahamas. 
+
+The above picture displayes the simple implementation of the businessman class. We can see how little responsibility the business man has in he construction of the businesses he owns All he knows is the business list he has that is returned from the executive maker.
+
+
+
+
+
 # Chain of Responsibility
 
 The chain of Responsibility pattern is comprised of a set of senders and receivers who only know about the next sender/receiver in the chain. The pattern is used for setting up complex sets of check logic in chains of senders receivers so that the client code that starts the check doesn't need to know about what point in the chain the request got to, all that matters is that the response was returned.
