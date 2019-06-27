@@ -159,6 +159,8 @@ Above is a code snippet of the portfolio builder which has a build portfolio met
 
 ![Here is a snippet of the concrete builder class.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Builder%20Pattern/ConcreteBuilderSnippet.PNG "Here is a snippet of the concrete builder class")
 
+The above code is from one of the three concrete business builder classes. This is where the information about the actual products is kept. From the builder these methods are called in the order laid out in the maker object then returned back to the client code. 
+
 # Chain of Responsibility
 
 The chain of Responsibility pattern is comprised of a set of senders and receivers who only know about the next sender/receiver in the chain. The pattern is used for setting up complex sets of check logic in chains of senders receivers so that the client code that starts the check doesn't need to know about what point in the chain the request got to, all that matters is that the response was returned.
