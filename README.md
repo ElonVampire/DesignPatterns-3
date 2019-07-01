@@ -182,6 +182,8 @@ This is a good example of the CoR pattern as it is a clear real world parallel w
 
 # Command Pattern
 
-The command pattern is a simple one, it simply has client code that calls a granular class that contains just the logic for the command to run. The command class is fully self contained, meaning that when the class is constructed and the execute command is run, it does not need to gather state from other dependancies. 
+The command pattern is a simple one, it simply has client code that calls a granular class that contains just the logic for the command to run. This allows complex business logic to be wrapped in a self contained class that uses a uniform interface. The command class is fully self contained, meaning that when the class is constructed and the execute command is run, it does not need to gather state from other dependancies. 
 
 ## What it Solves
+
+    This pattern solves 
