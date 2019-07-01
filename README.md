@@ -199,4 +199,23 @@ This can be done by taking the complex code from the client, and placing it with
 ## Other Notes
 
 You can group related functionality see undo method
-#
+
+# Composite Pattern
+
+## What it solves
+
+## Imlementation
+
+## Code Snippets
+
+## Example run down
+
+# Decorator
+
+## What it solves
+
+## Imlementation
+
+## Code Snippets
+
+## Example run down
