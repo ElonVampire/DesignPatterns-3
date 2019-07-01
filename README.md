@@ -186,7 +186,7 @@ The command pattern is a simple one, it simply has client code that calls a gran
 
 ## What it Solves
 
-    This pattern solves the issue of mixing in complex business logic in with client code that calls it. Often times the client code that calls this business logic is smoothing the data out for the execution for the business logic, so it makes sense that these items can be seperated. 
+This pattern solves the issue of mixing in complex business logic in with client code that calls it. Often times the client code that calls this business logic is smoothing the data out for the execution for the business logic, so it makes sense that these items can be seperated. 
     
 ## Implementation
     
