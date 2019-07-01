@@ -202,6 +202,8 @@ You can group related functionality see undo method
 
 # Composite Pattern
 
+The composite pattern is used in programs to represent part/whole relationship items, and gives both element of this a common interface so that they can be interacted with in the same way. A great example of this is the windows explorer. As you traverse down a file path a folder can have folders as well as files. Double clicking a folder will open this folder which in turn might also contain more folders and files, whereas the same action on a file will open the file in its default program. These are what is known as a composite (the folders) and a leaf (the file). The composite is identified by 
+
 ## What it solves
 
 ## Imlementation
