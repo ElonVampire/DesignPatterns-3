@@ -186,4 +186,17 @@ The command pattern is a simple one, it simply has client code that calls a gran
 
 ## What it Solves
 
-    This pattern solves 
+    This pattern solves the issue of mixing in complex business logic in with client code that calls it. Often times the client code that calls this business logic is smoothing the data out for the execution for the business logic, so it makes sense that these items can be seperated. 
+    
+## Implementation
+    
+This can be done by taking the complex code from the client, and placing it within its own class, that implements the ICommand or similarly named abstraction that provides the method signatures required. When the class is instantiated the state the method requires to run can be passed through as constructor parameters and saved as readonly private properties. Onces the object is newed up we can simply call the Execute method on the class to run what would otherwise be complex implementation details mixed in with client code. 
+
+## Code snippets
+
+## Example run down
+
+## Other Notes
+
+You can group related functionality see undo method
+#
