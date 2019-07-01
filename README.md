@@ -219,3 +219,23 @@ You can group related functionality see undo method
 ## Code Snippets
 
 ## Example run down
+
+#  Event Aggregator
+
+## What it solves
+
+## Imlementation
+
+## Code Snippets
+
+## Example run down
+
+# Facade Pattern
+
+## What it solves
+
+## Imlementation
+
+## Code Snippets
+
+## Example run down
