@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite Pattern", "Compos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator Pattern", "Decorator Pattern\Decorator Pattern.csproj", "{D294CF30-B44A-4BC0-8CEF-F087F8987472}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event Aggregator Pattern", "Event Aggregator\Event Aggregator Pattern.csproj", "{B25FF27D-0B90-413F-8136-C52F580E1E68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D294CF30-B44A-4BC0-8CEF-F087F8987472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D294CF30-B44A-4BC0-8CEF-F087F8987472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D294CF30-B44A-4BC0-8CEF-F087F8987472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25FF27D-0B90-413F-8136-C52F580E1E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25FF27D-0B90-413F-8136-C52F580E1E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25FF27D-0B90-413F-8136-C52F580E1E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25FF27D-0B90-413F-8136-C52F580E1E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
