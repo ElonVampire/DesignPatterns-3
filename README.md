@@ -198,7 +198,7 @@ This can be done by taking the complex code from the client, and placing it with
 
 ## Other Notes
 
-You can group related functionality see undo method
+Another powerful feature of the command pattern is the ability to enforce implementations of related groups of functionality. For example, if we were making a command pattern for database interactions where the commands were the queries that were run against the database. We might want to have both a command execute function. As well as a rollback functionality. To do this in the abstration, be it an interface or an abstract base class, we add a second method called rollback. This way when the execute methods is implemented the interface will display a compile time error unless the rollback method is also implemented. 
 
 # Composite Pattern
 
