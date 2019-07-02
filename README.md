@@ -206,6 +206,7 @@ The composite pattern is used in programs to represent part/whole relationship i
 
 ## What it solves
 
+The composite pattern solves issues that arise when dealing with part/whole structures. Often in computing tree structures like this can be difficult to programmatically handle and traverse through effectively. By implementing the composite pattern we are able to set up a tree structure of N parent/children combos with any number of contained files. Then be able to use incredibly basic client code that interacts with these objects and leaves the composite objects to pass the interaction commands down through the tree structure. 
 
 
 ## Imlementation
