@@ -4,16 +4,15 @@ namespace Command_Pattern
 {
     class Program
     {
+        public static bool isExitFlag = false;
         static void Main(string[] args)
         {
-            bool isExitFlag = false;
             CommandParser parser = new CommandParser();
-            while (!isExitFlag)
+            while (!Program.isExitFlag)
             {
                 var command = Console.ReadLine();
                 IResult result = parser.ParseCommand(command);
                 result.WriteResultToLine();
-                Console.WriteLine(command);
             }
         }
     }
