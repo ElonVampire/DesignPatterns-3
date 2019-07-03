@@ -6,7 +6,15 @@ namespace Command_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            bool isExitFlag = false;
+            CommandParser parser = new CommandParser();
+            while (!isExitFlag)
+            {
+                var command = Console.ReadLine();
+                IResult result = parser.ParseCommand(command);
+                result.WriteResultToLine();
+                Console.WriteLine(command);
+            }
         }
     }
 }
