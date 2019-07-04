@@ -223,7 +223,7 @@ The leaf object is what is the actual target of the calling code. When the call 
 
 ## Example run down
 
-In my example I used the example of a command line interface which allows you to create a party of groups and sub groups with their own adventurers inside the groups. Then using commands you are able to give gold and experience to the party as a whole and the composite pattern takes care of the splits. See 
+In my example I used the example of a command line interface which allows you to create a party of groups and sub groups with their own adventurers inside the groups. Then using commands you are able to give gold and experience to the party as a whole and the composite pattern takes care of the splits. In regards to the pattern components this example uses the class "Group" as the composite object. The class "Member" as the leaf, and IParty is the abstraction that ties them all together, and lets the client code interact with all items in the tree the same.
 
 # Decorator
 
