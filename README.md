@@ -215,6 +215,7 @@ The implmentation of the composite pattern is one of the more simple to understa
 
 # insert diagram here
 
+The composite pattern is made of two concrete classes and an abstraction that lets client code treat them the same. The abstraction can either be an interface or an abstract base class that supplies common functionality to both the composite objects and leaf objects that will extend or implement it. 
 ## Code Snippets
 
 ## Example run down
