@@ -1,0 +1,11 @@
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\obj\Debug\netcoreapp2.1\Composite Pattern.csprojAssemblyReference.cache
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\obj\Debug\netcoreapp2.1\Composite Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\obj\Debug\netcoreapp2.1\Composite Pattern.AssemblyInfoInputs.cache
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\obj\Debug\netcoreapp2.1\Composite Pattern.AssemblyInfo.cs
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\bin\Debug\netcoreapp2.1\Composite Pattern.deps.json
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\bin\Debug\netcoreapp2.1\Composite Pattern.runtimeconfig.json
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\bin\Debug\netcoreapp2.1\Composite Pattern.runtimeconfig.dev.json
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\bin\Debug\netcoreapp2.1\Composite Pattern.dll
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\bin\Debug\netcoreapp2.1\Composite Pattern.pdb
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\obj\Debug\netcoreapp2.1\Composite Pattern.dll
+C:\Users\Thomas\source\repos\DesignPatternClone\Composite Pattern\obj\Debug\netcoreapp2.1\Composite Pattern.pdb

@@ -4,9 +4,15 @@ namespace Composite_Pattern
 {
     class Program
     {
+        public static bool isExitFlag = false;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CommandParser parser = new CommandParser(new AdventurerCommandsMaker());
+            while (!isExitFlag)
+            {
+                IResult result = parser.ParseCommand(Console.ReadLine());
+                result.EvaulateToCommandLine();
+            }
         }
     }
 }
