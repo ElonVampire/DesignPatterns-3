@@ -211,6 +211,10 @@ The composite pattern solves issues that arise when dealing with part/whole stru
 
 ## Imlementation
 
+The implmentation of the composite pattern is one of the more simple to understand patterns in the library. Consider the following diagram.
+
+# insert diagram here
+
 ## Code Snippets
 
 ## Example run down
