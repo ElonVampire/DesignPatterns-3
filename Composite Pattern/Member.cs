@@ -31,13 +31,19 @@ namespace Composite_Pattern
 
         public void AddPartyMember(string memberName, string groupName = "root")
         {
-            throw new System.Exception();
+            return;
         }
 
-        public string PrettyPrint()
+        public string PrettyPrint(int counterToken)
         {
+
             string result = string.Empty;
-            result = string.Format("Party Member: {0} \n Money: {1} \n Experience {2}\n", Name, money, experience);
+            string indent = "";
+            for (var i = 0; i <= counterToken; i++)
+            {
+                indent += "\t";
+            }
+            result += string.Format("{0}Party Member: {1} \n {0}Money: {2} \n {0}Experience {3}\n", indent, Name, money, experience);
             return result;
         }
 

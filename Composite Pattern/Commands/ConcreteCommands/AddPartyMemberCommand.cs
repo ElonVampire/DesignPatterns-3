@@ -8,8 +8,18 @@
         {
             if (comm.BaseCommandText == CommandText)
             {
-                repo.AddPartyMember(comm.Parameters[0]);
-                return new Result("member " + comm.Parameters[0] + " was made successfully in root"  );
+                string memberName = comm.Parameters[0];
+                string parentGroup = "";
+                if (comm.Parameters.Count == 2)
+                {
+                    parentGroup = comm.Parameters[1];
+                }
+                else
+                {
+                    parentGroup = "root";
+                }
+                repo.AddPartyMember(memberName, parentGroup);
+                return new Result("member " + comm.Parameters[0] + " was made successfully"  );
             }
             else
             {

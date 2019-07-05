@@ -14,6 +14,6 @@ namespace Composite_Pattern
         void RemoveMoney(int amountToBeDeducted);
         void AddExperience(int amountToBeAdded);
         void RemoveExperience(int amountToBeDeducted);
-        string PrettyPrint();
+        string PrettyPrint(int counterToken);
     }
 }

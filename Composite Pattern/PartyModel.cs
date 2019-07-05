@@ -13,6 +13,7 @@ namespace Composite_Pattern
             if(parent == Name)
             {
                 _parties.Add(new Group(groupName));
+                return;
             }
             else
             {
@@ -52,13 +53,13 @@ namespace Composite_Pattern
             }
         }
 
-        public string PrettyPrint()
+        public string PrettyPrint(int counterToken = 0)
         {
             string result = "----------Showing the tree-------------\n";
             result += String.Format("Group name: {0}\n", Name);
             foreach(var party in _parties)
             {
-                result += party.PrettyPrint();
+                result += party.PrettyPrint(counterToken);
             }
             return result;
         }

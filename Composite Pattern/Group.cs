@@ -5,13 +5,14 @@ namespace Composite_Pattern
     internal class Group : IParty
     {
         public string Name { get; set; }
+        public List<IParty> _parties { get; set; }
 
         public Group(string groupName)
         {
             Name = groupName;
+            _parties = new List<IParty>();
         }
 
-        public List<IParty> _parties { get; set; } = new List<IParty>();
 
         public void AddExperience(int amountToBeAdded)
         {
@@ -26,19 +27,21 @@ namespace Composite_Pattern
         {
             if (parent == Name)
             {
-                _parties.Add(new Group(Name));
+                _parties.Add(new Group(groupName));
             }
             else
             {
                 foreach (var party in _parties)
-                    party.AddGroup(Name, parent);
+                    party.AddGroup(groupName, parent);
             }
         }
 
         public void AddMoney(int amountToBeAdded)
         {
+            if (_parties.Count == 0)
+                return; 
             int split = amountToBeAdded / _parties.Count;
-            foreach(var party in _parties)
+            foreach (var party in _parties)
             {
                 party.AddMoney(split);
             }
@@ -57,15 +60,20 @@ namespace Composite_Pattern
             }
         }
 
-        public string PrettyPrint()
+        public string PrettyPrint(int counterToken)
         {
+            
             string result = "";
-            result += string.Format("\t Group name: {0}\n", Name);
+            for(var i = 0; i <= counterToken; i++)
+            {
+                result += "\t";
+            }
+            counterToken++;
+            result += string.Format("Group name: {0}\n", Name);
             foreach (var party in _parties)
             {
                 
-                result += "\t";
-                result += party.PrettyPrint();
+                result += party.PrettyPrint(counterToken);
             }
             return result;
 
@@ -84,7 +92,7 @@ namespace Composite_Pattern
         {
             foreach (var party in _parties)
             {
-                if(party.Name == groupName)
+                if (party.Name == groupName)
                 {
                     _parties.Remove(party);
                 }
