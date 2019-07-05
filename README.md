@@ -192,6 +192,8 @@ This pattern solves the issue of mixing in complex business logic in with client
     
 This can be done by taking the complex code from the client, and placing it within its own class, that implements the ICommand or similarly named abstraction that provides the method signatures required. When the class is instantiated the state the method requires to run can be passed through as constructor parameters and saved as readonly private properties. Onces the object is newed up we can simply call the Execute method on the class to run what would otherwise be complex implementation details mixed in with client code. 
 
+Consider the following diagram.
+
 ## Code snippets
 
 ## Example run down
@@ -208,12 +210,20 @@ The composite pattern is used in programs to represent part/whole relationship i
 
 The composite pattern solves issues that arise when dealing with part/whole structures. Often in computing tree structures like this can be difficult to programmatically handle and traverse through effectively. By implementing the composite pattern we are able to set up a tree structure of N parent/children combos with any number of contained files. Then be able to use incredibly basic client code that interacts with these objects and leaves the composite objects to pass the interaction commands down through the tree structure. 
 
+## Implementation
 
-## Imlementation
+The implmentation of the composite pattern is one of the more simple to understand patterns in the library. Consider the following diagram.
+
+# insert diagram here
+
+The composite pattern is made of two concrete classes and an abstraction that lets client code treat them the same. The abstraction can either be an interface or an abstract base class that supplies common functionality to both the composite objects and leaf objects that will extend or implement it. The composite object contains a list of abstract types, and implements the operations on the data in a way that the operation is passed down to all children of itself. 
+The leaf object is what is the actual target of the calling code. When the call is passed down through the tree into the leaf object the implementation of the operation is different. 
 
 ## Code Snippets
 
 ## Example run down
+
+In my example I used the example of a command line interface which allows you to create a party of groups and sub groups with their own adventurers inside the groups. Then using commands you are able to give gold and experience to the party as a whole and the composite pattern takes care of the splits. In regards to the pattern components this example uses the class "Group" as the composite object. The class "Member" as the leaf, and IParty is the abstraction that ties them all together, and lets the client code interact with all items in the tree the same.
 
 # Decorator
 
