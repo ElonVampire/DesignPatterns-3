@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BuilderPattern",
-    "\\BuilderPattern\\Refined Builders"
+    "\\Adapter Pattern"
   ],
-  "SelectedNode": "\\BuilderPattern\\Refined Builders\\BuyThingsRetailLimitedBuilder.cs",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
