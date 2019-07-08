@@ -190,7 +190,7 @@ The command pattern is a simple one, it simply has client code that calls a gran
 
 This pattern solves the issue of mixing in complex business logic in with client code that calls it. Often times the client code that calls this business logic is smoothing the data out for the execution for the business logic, so it makes sense that these items can be seperated. By doing this we are able to remove complex segments of logic from the client code and move them to their own classes with all the state they need to execute and nothing more. 
 
-If we were to not use this pattern there would be large segments of the code that define complex business logic and are mixed in with the client code that uses the logic. In some cases this logic might even be duplicated which is a very bad code smell when dealing with mission critical logic.
+If we were to not use this pattern there would be large segments of the code that define complex business logic and are mixed in with the client code that uses the logic. In some cases this logic might even be duplicated which is a very bad code smell when dealing with mission critical logic. By taking this logic and placing it within its own class we are able to keep the client loosely coupled from the business logic it uses. As far as we know the business logic might change and our system should be able to change with it. In the client code we are able to drop and replace command classes for whatever our requirements are and we can make new classes should we need differnt functionality. As long as they all use the same interface the client code wont care what it is calling.
     
 ## Implementation
     
