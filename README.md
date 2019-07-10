@@ -243,12 +243,10 @@ The composite pattern solves issues that arise when dealing with part/whole stru
 
 The implmentation of the composite pattern is one of the more simple to understand patterns in the library. Consider the following diagram.
 
-![here is a simple diagram showing the basic implementation of a composite pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/CompositePattern.JPG "here is a simple diagram showing the basic implementation of a composite pattern")
+![here is a simple diagram showing the basic implementation of a composite pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/composit.JPG "here is a simple diagram showing the basic implementation of a composite pattern")
 
 The composite pattern is made of two concrete classes and an abstraction that lets client code treat them the same. The abstraction can either be an interface or an abstract base class that supplies common functionality to both the composite objects and leaf objects that will extend or implement it. The composite object contains a list of abstract types, and implements the operations on the data in a way that the operation is passed down to all children of itself. 
 The leaf object is what is the actual target of the calling code. When the call is passed down through the tree into the leaf object the implementation of the operation is different. 
-
-## Code Snippets
 
 ## Example run down
 
