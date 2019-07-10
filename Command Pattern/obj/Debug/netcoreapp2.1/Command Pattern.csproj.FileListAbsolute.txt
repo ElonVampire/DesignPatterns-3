@@ -9,3 +9,13 @@ C:\Users\Thomas\source\repos\DesignPatternClone\Command Pattern\obj\Debug\netcor
 C:\Users\Thomas\source\repos\DesignPatternClone\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.AssemblyInfo.cs
 C:\Users\Thomas\source\repos\DesignPatternClone\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.dll
 C:\Users\Thomas\source\repos\DesignPatternClone\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.pdb
+E:\Repos\DesignPatterns\Command Pattern\bin\Debug\netcoreapp2.1\Command Pattern.deps.json
+E:\Repos\DesignPatterns\Command Pattern\bin\Debug\netcoreapp2.1\Command Pattern.runtimeconfig.json
+E:\Repos\DesignPatterns\Command Pattern\bin\Debug\netcoreapp2.1\Command Pattern.runtimeconfig.dev.json
+E:\Repos\DesignPatterns\Command Pattern\bin\Debug\netcoreapp2.1\Command Pattern.dll
+E:\Repos\DesignPatterns\Command Pattern\bin\Debug\netcoreapp2.1\Command Pattern.pdb
+E:\Repos\DesignPatterns\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.csproj.CoreCompileInputs.cache
+E:\Repos\DesignPatterns\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.AssemblyInfoInputs.cache
+E:\Repos\DesignPatterns\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.AssemblyInfo.cs
+E:\Repos\DesignPatterns\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.dll
+E:\Repos\DesignPatterns\Command Pattern\obj\Debug\netcoreapp2.1\Command Pattern.pdb

@@ -197,13 +197,36 @@ If we were to not use this pattern there would be large segments of the code tha
 The command pattern can be implemented by taking the complex code from the client, and placing it within its own class, that implements the ICommand or similarly named abstraction that provides the method signatures required. When the class is instantiated the state the method requires to run can be passed through as constructor parameters and saved as readonly private properties. Onces the object is newed up we can simply call the Execute method on the class to run what would otherwise be complex implementation details mixed in with client code. 
 
 Consider the following diagram.
+![here is a simple diagram showing the basic implementation of a command pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/CommandPattern.JPG "here is a simple diagram showing the basic implementation of a command pattern")
 
 This is clearly one of the more simple design patterns but dont underestimate the importance of a well designed set of command patterns.
 
-## Code snippets
+The client simply calls the abstraction of the ICommand interface which is implemented by the ConcreteCommand class. This is the class that will contain whatever complex business logic that is needed to be used by the client which is call this command. 
 
 ## Example run down
 
+In my example I made i implemented a simple command line interface that allows the user to add and remove experience from a character in the system. In the example the commands that the user type into the the interface are correlated with a command pattern class that executes the logic upon the character. 
+
+![Here is a snippet of the program file.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Command%20Pattern/program.JPG "Here is a snippet of the program file")
+
+this is the program method for the application. It simply enters a loop of getting commands from the user then executing those within the command parser object. 
+
+![Here is a snippet of the command parser file.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Command%20Pattern/commandParser.JPG "Here is a snippet of the command parser file")
+
+The code above is where the magic happens. When we make the object we make a character object and a list of commands that the parser will operate on. You might notice something familiar about the way the commands are structured. These are laid out in a chain of responsibility pattern. so when the command is sent from the interface into the parse command method, we send this command to the first link i the chain and then we forget about it. This is because we set the chain up in the constructor so the commands know the pattern in which they need to be checked for. 
+
+We also include a new pattern and that is the null object pattern. The final link in the chain is a set value of the EndOfChainItem. This is the object that when hit will not have a next link and will return the print value of "no command matching {command} was found". If we didnt include this object the chain would break if it got to the end without finding a command match.
+
+The command parser in this program can be considered the client of the pattern as the parse command method is calling the execute method on the ICommand objects.
+
+![Here is a snippet of the command file.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Command%20Pattern/command.JPG "Here is a snippet of the command file")
+
+Above is an example of one of the actual commands. This particular one is responsible for adding money to the user. So the first interesting thing we notice looking at the class signature is that it implements two interfaces, the ICommand which is the Execute Command and the Ichainable which allows it to operate as a CoR class with the SetNext method. 
+
+We can see that the string "add money" is set when the property is defined and in the execute method the calling command is compared against this to see if this is the command called. Should the incoming command be the same as the command string defined in the command class the business logic for that command is executed, otherwise the next link in the chain is called. 
+
+By structuring the code in this way we are able to avoid adding checks for command matching in the client code. Each command simply checks if it is the command that was intended to be called and if not we are able to safely call the next link in the chain and forget about the request. 
+x
 ## Other Notes
 
 Another powerful feature of the command pattern is the ability to enforce implementations of related groups of functionality. For example, if we were making a command pattern for database interactions where the commands were the queries that were run against the database. We might want to have both a command execute function. As well as a rollback functionality. To do this in the abstration, be it an interface or an abstract base class, we add a second method called rollback. This way when the execute methods is implemented the interface will display a compile time error unless the rollback method is also implemented. 
