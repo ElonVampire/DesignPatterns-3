@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatternClone\\Decorator Pattern\\Decorator Pattern.csproj",
+      "projectUniqueName": "E:\\Repos\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj",
       "projectName": "Decorator Pattern",
-      "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatternClone\\Decorator Pattern\\Decorator Pattern.csproj",
+      "projectPath": "E:\\Repos\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatternClone\\Decorator Pattern\\obj\\",
+      "outputPath": "E:\\Repos\\DesignPatterns\\Decorator Pattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
