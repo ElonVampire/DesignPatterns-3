@@ -255,17 +255,29 @@ In my example I used the example of a command line interface which allows you to
 
 This is by far the most complex example i have made up till this point as it includes many different moving parts and the implementation of a few different patterns to reach the goal of the application. However, through the use of these patterns we have managed some nice abstractions throughout the system which will allow us to expand the systems in ways that would otheriwse be quite painful, if we had implemented the systems in a less extensible manner. 
 
-# here goes an image of the program file
+![here is the program file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/program.JPG "here is the program file from the composite pattern")
 
 Firstly here is a snippet of the program file. This starts off the same as the the following command pattern with a few minor differences. When we instantiate the CommandParser object this time we pass into it an AdventurerCommandsMaker. This is the first of many patterns utilized in this example. By passing in this maker, we see the start of a builder pattern take shape. We know at a glance that this maker object is probably going to be the one to handle orchestration of the builder objects. By knowing the shared language of patterns we know that if we were to pass in a different maker that supplies a different set of commands we would be able to completely alter the way in which the CommandParser operates as it would be functioning with a different set of commands. 
 
-# here goes and image of the command parser pt1
+![here is the first part of the command parser file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/commandparser1.JPG "here is the first part of the command parser file from the composite pattern")
 
 The command delegation is held mainly within the CommandParser object. We can see that it has a few private methods, being the maker object passed into the constructor form the program file, a list of commands that are returned from the the maker object, and a data model object modelling the Party.
 
 We can also see that there is a small amount of looping logic in the constructor. This is simply setting up our chain of responsibility without knowing the amount of items in the chain. By doing this we are able to pass in a maker that returns a larger or smaller set of commands and be sure that all of these are added to the chain of responsibility, this is the second pattern we have seen here.
 
 Less noticable the command object has a isEndItem property. This is on the null item pattern that indicates the end of the chain without the system throwing an exception. By adding this flag to the chainable command objects and setting the flag to true on the null object pattern. We are able to be sure that the chain will end in a null object without causing the systemt blow up. We are also able to implement specific behaviour when no command match was found.
+
+![here is the second part of the command parser file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/commandparser2.JPG "here is the second part of the command parser file from the composite pattern")
+
+![here is a command file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/command.JPG "here is a command file from the composite pattern")
+
+![here is a abstraction file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/abstraction.JPG "here is a abstraction file from the composite pattern")
+
+![here is a party model file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/partymodel.JPG "here is a party model file from the composite pattern")
+
+![here is a group file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/group.JPG "here is a group file from the composite pattern")
+
+![here is a member file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/member.JPG "here is a member file from the composite pattern")
 
 # Decorator
 
