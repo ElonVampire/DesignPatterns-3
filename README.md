@@ -281,7 +281,11 @@ Less noticable the command object has a isEndItem property. This is on the null 
 
 # Decorator
 
+The decorator pattern allows developers to add functionality to existing classes without changing the base class that we need to add functionality. For example, in the real world we often want to be able to add functionality to legacy code. However, this doesnt always go down so well with altering legacy code which is so old it is considered voodoo magic in its implementation. Because of this we dont want to change the core implementation of this code as we know that it is getting the right values from its current set of functionality we just want to be able to extend this and alter a few methods and maybe add a new method entirely. We can do this by wrapping the legacy code in a decorator which allows for the core legacy functionality to remain intact while also being able to implement new logic to interact with the underlying logic as well as implement new stuff on top of this.
+
 ## What it solves
+
+The decorator pattern solves the issue of edit code to fit new requirements when current functionality is already working. There is inherit failings within development if code is being changed after the functionality of that component has be verified. To properly follow the O of the SOLID programming principles we should not being editing the original components (open/closed priniciple). 
 
 ## Imlementation
 
@@ -289,7 +293,11 @@ Less noticable the command object has a isEndItem property. This is on the null 
 
 #  Event Aggregator
 
+The event aggregator was a pattern I struggled with originally. Primarly because I lacked experience with the problem domain faced with creating pub/sub type relationships in a system of scale. In essence the Event aggregator is a single source of truth when it comes to event registration and removes the need for publishing items to know about their subscribers and vice versa. This becomes more useful in large systems or systems with limited resources, as the low level memory management that needs to be considered with standard pub/sub implementations is abstracted away.
+
 ## What it solves
+
+As mentioned breifly in the previous section the pattern solves an issue faced in more typical pub/sub implementations where there is large risk for memory leaks if memory is not considered carefully. This is because each publisher knows about its subscribers and each subscriber knows about its publishers it is subscribed to. All these references can become very heavy and system slow down is enevitable in larger systems or in environments where resources are scarce.
 
 ## Imlementation
 
@@ -297,7 +305,11 @@ Less noticable the command object has a isEndItem property. This is on the null 
 
 # Facade Pattern
 
+The facade patternis an easy pattern to cover. It acts as one large abstraction to a system or set of subsystems. Say for example a large legacy back end service was needed for a customer facing app to work. The dev team managed to refactor completely the front end to use the latest and greatest technologies but was being bogged down by making old legacy calls to a backend service, a facade pattern might be of use. Instead of refactoring the legacy code, we can abstract away the entire system to a facade that only exposes certain functionality or provides orchestration for a single call to the facade to run sets of related functionality.
+
 ## What it solves
+
+The facade pattern is good for abstracting away large systems, complex systems, legacy systems or any combonation of the three. This allows us to adhere to the open close principle as we will no longer need to change the functionality that is already working even if we want to change the overall interface it exposes. 
 
 ## Imlementation
 
