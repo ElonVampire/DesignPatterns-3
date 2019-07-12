@@ -295,15 +295,15 @@ The decorator pattern solves the issue of edit code to fit new requirements when
 
 ![here is a program file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/program.JPG "here is a program file from the decorator pattern")
 
-![here is a gun abstract class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gun.JPG "here is a gun abstract class file from the decorator pattern")
+![here is a gun abstract class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gun.JPG "here is a gun abstract class file from the decorator pattern")
 
-![here is the first part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gunImp1.JPG "here is the first part of the concrete gun class file from the decorator pattern")
+![here is the first part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunImp1.JPG "here is the first part of the concrete gun class file from the decorator pattern")
 
-![here is the second part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gunImp2.JPG "here is the second part of the concrete gun class file from the decorator pattern")
+![here is the second part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunImp2.JPG "here is the second part of the concrete gun class file from the decorator pattern")
 
-![here is the abstract gun decorator file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gunDec.JPG "here is the abstract gun decorator file from the decorator pattern")
+![here is the abstract gun decorator file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunDec.JPG "here is the abstract gun decorator file from the decorator pattern")
 
-![here is a concrete gun decorator class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/silencer.JPG "here is a concrete gun decorator class file from the decorator pattern")
+![here is a concrete gun decorator class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/silencer.JPG "here is a concrete gun decorator class file from the decorator pattern")
 
 #  Event Aggregator
 
