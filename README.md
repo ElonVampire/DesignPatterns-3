@@ -293,6 +293,18 @@ The decorator pattern solves the issue of edit code to fit new requirements when
 
 ## Example run down
 
+![here is a program file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/program.JPG "here is a program file from the decorator pattern")
+
+![here is a gun abstract class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gun.JPG "here is a gun abstract class file from the decorator pattern")
+
+![here is the first part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gunImp1.JPG "here is the first part of the concrete gun class file from the decorator pattern")
+
+![here is the second part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gunImp2.JPG "here is the second part of the concrete gun class file from the decorator pattern")
+
+![here is the abstract gun decorator file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/gunDec.JPG "here is the abstract gun decorator file from the decorator pattern")
+
+![here is a concrete gun decorator class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/silencer.JPG "here is a concrete gun decorator class file from the decorator pattern")
+
 #  Event Aggregator
 
 The event aggregator was a pattern I struggled with originally. Primarly because I lacked experience with the problem domain faced with creating pub/sub type relationships in a system of scale. In essence the Event aggregator is a single source of truth when it comes to event registration and removes the need for publishing items to know about their subscribers and vice versa. This becomes more useful in large systems or systems with limited resources, as the low level memory management that needs to be considered with standard pub/sub implementations is abstracted away.
