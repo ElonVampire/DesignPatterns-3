@@ -1,4 +1,11 @@
-E:\Repos\DesignPatterns\Decorator Pattern\obj\Debug\netcoreapp2.1\Decorator Pattern.csprojAssemblyReference.cache
 E:\Repos\DesignPatterns\Decorator Pattern\obj\Debug\netcoreapp2.1\Decorator Pattern.csproj.CoreCompileInputs.cache
 E:\Repos\DesignPatterns\Decorator Pattern\obj\Debug\netcoreapp2.1\Decorator Pattern.AssemblyInfoInputs.cache
 E:\Repos\DesignPatterns\Decorator Pattern\obj\Debug\netcoreapp2.1\Decorator Pattern.AssemblyInfo.cs
+E:\Repos\DesignPatterns\Decorator Pattern\bin\Debug\netcoreapp2.1\Decorator Pattern.deps.json
+E:\Repos\DesignPatterns\Decorator Pattern\bin\Debug\netcoreapp2.1\Decorator Pattern.runtimeconfig.json
+E:\Repos\DesignPatterns\Decorator Pattern\bin\Debug\netcoreapp2.1\Decorator Pattern.runtimeconfig.dev.json
+E:\Repos\DesignPatterns\Decorator Pattern\bin\Debug\netcoreapp2.1\Decorator Pattern.dll
+E:\Repos\DesignPatterns\Decorator Pattern\bin\Debug\netcoreapp2.1\Decorator Pattern.pdb
+E:\Repos\DesignPatterns\Decorator Pattern\obj\Debug\netcoreapp2.1\Decorator Pattern.dll
+E:\Repos\DesignPatterns\Decorator Pattern\obj\Debug\netcoreapp2.1\Decorator Pattern.pdb
+E:\Repos\DesignPatterns\Decorator Pattern\obj\Debug\netcoreapp2.1\Decorator Pattern.csprojAssemblyReference.cache
