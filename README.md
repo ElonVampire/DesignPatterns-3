@@ -289,6 +289,8 @@ The decorator pattern solves the issue of edit code to fit new requirements when
 
 ## Imlementation
 
+![here is a simple diagram showing the basic implementation of a decorator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/DecoratorPattern.JPG "here is a simple diagram showing the basic implementation of a decorator pattern")
+
 ## Example run down
 
 #  Event Aggregator
@@ -301,6 +303,8 @@ As mentioned breifly in the previous section the pattern solves an issue faced i
 
 ## Imlementation
 
+![here is a simple diagram showing the basic implementation of a event aggregator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/EventAggregator.JPG "here is a simple diagram showing the basic implementation of a event aggregator pattern")
+
 ## Example run down
 
 # Facade Pattern
@@ -312,5 +316,7 @@ The facade patternis an easy pattern to cover. It acts as one large abstraction 
 The facade pattern is good for abstracting away large systems, complex systems, legacy systems or any combonation of the three. This allows us to adhere to the open close principle as we will no longer need to change the functionality that is already working even if we want to change the overall interface it exposes. 
 
 ## Imlementation
+
+![here is a simple diagram showing the basic implementation of a facade pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/Facade.JPG "here is a simple diagram showing the basic implementation of a facade pattern")
 
 ## Example run down
