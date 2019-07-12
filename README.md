@@ -281,6 +281,8 @@ Less noticable the command object has a isEndItem property. This is on the null 
 
 # Decorator
 
+The decorator pattern allows developers to add functionality to existing classes without changing the base class that we need to add functionality. For example, in the real world we often want to be able to add functionality to legacy code. However, this doesnt always go down so well with altering legacy code which is so old it is considered voodoo magic in its implementation. Because of this we dont want to change the core implementation of this code as we know that it is getting the right values from its current set of functionality we just want to be able to extend this and alter a few methods and maybe add a new method entirely. We can do this by wrapping the legacy code in a decorator which allows for the core legacy functionality to remain intact while also being able to implement new logic to interact with the underlying logic as well as implement new stuff on top of this.
+
 ## What it solves
 
 ## Imlementation
