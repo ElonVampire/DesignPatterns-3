@@ -329,6 +329,8 @@ The facade pattern is good for abstracting away large systems, complex systems, 
 
 ## Imlementation
 
-![here is a simple diagram showing the basic implementation of a facade pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/Facade.JPG "here is a simple diagram showing the basic implementation of a facade pattern")
+![here is a simple diagram showing a bad implementation.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/badFacadePattern.JPG "here is a simple diagram showing a bad implementation")
+
+![here is a simple diagram showing the basic implementation of a facade pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/GoodFacadePattern.JPG "here is a simple diagram showing the basic implementation of a facade pattern")
 
 ## Example run down
