@@ -303,7 +303,11 @@ The decorator pattern solves the issue of edit code to fit new requirements when
 
 The decorator pattern was one of the easier patterns to wrap my head around so far. The basic principle is that we have an object that needs its functionality changed or functionality added in some way. We can do this by putting the original object within a decorator class that implements the same interface. The Decorator Base class has a reference to a component object that it stores and calls its methods upon. This reference could be to the original core object or it could be another decorator if the usecase needs multiple decorations of the same object.
 
+Within the concrete decorators that extend the Decorator abstract base class we define out behaviour that we need to change or add. This can be done by overriding the implementation of the methods defined in the component abstraction. 
+
 ![here is a simple diagram showing the basic implementation of a decorator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/DecoratorPattern.JPG "here is a simple diagram showing the basic implementation of a decorator pattern")
+
+This is the standard implementation of a decorator pattern. An interesting point here is that that loop back from the Decorator abstraction class, to to the Component Abstraction class. This is very similar to the composite pattern just covered, as the decorator can have other decorators or it could have a concrete components which would act as the leaf in the composite pattern.
 
 ## Example run down
 
