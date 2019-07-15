@@ -273,15 +273,23 @@ This is the second half of the command parser that defines how commands are actu
 
 ![here is a command file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/command.JPG "here is a command file from the composite pattern")
 
-
+This is an instance of a command class. We can see that it inherits from the BaseChainable which allows for this to  operate within the CoR pattern we have setup for command parsing. It also implements the Icommand interface which is another of the previously described patterns. We can also see in the execute method that it fires the add group method on the repo that it has. In this case it is the PartyModel which implements the IParty interface seen below.
 
 ![here is a abstraction file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/abstraction.JPG "here is a abstraction file from the composite pattern")
 
+This is the actual component of the compostite pattern. This defines how the system should treat party objects. In our example a party class that implements this could be either a person or a group which contains people.
+
 ![here is a party model file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/partymodel.JPG "here is a party model file from the composite pattern")
+
+IParty is firstly implemented by PartyModel. I dont really need this class as all it does is act as a root for the composite structure. I could just make a group named root and have this as the party model that is interacted with in the commands.
 
 ![here is a group file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/group.JPG "here is a group file from the composite pattern")
 
+Above is the class definition for groups. we can see that it has a group name and a list of parties that can be either people or more groups. 
+
 ![here is a member file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/member.JPG "here is a member file from the composite pattern")
+
+
 
 # Decorator
 
