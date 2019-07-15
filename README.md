@@ -299,7 +299,9 @@ The decorator pattern allows developers to add functionality to existing classes
 
 The decorator pattern solves the issue of edit code to fit new requirements when current functionality is already working. There is inherit failings within development if code is being changed after the functionality of that component has be verified. To properly follow the O of the SOLID programming principles we should not being editing the original components (open/closed priniciple). 
 
-## Imlementation
+## Implementation
+
+The decorator pattern was one of the easier patterns to wrap my head around so far. The basic principle is that we have an object that needs its functionality changed or functionality added in some way. We can do this by putting the original object within a decorator class that implements the same interface. The Decorator Base class has a reference to a component object that it stores and calls its methods upon. This reference could be to the original core object or it could be another decorator if the usecase needs multiple decorations of the same object.
 
 ![here is a simple diagram showing the basic implementation of a decorator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/DecoratorPattern.JPG "here is a simple diagram showing the basic implementation of a decorator pattern")
 
@@ -325,7 +327,7 @@ The event aggregator was a pattern I struggled with originally. Primarly because
 
 As mentioned breifly in the previous section the pattern solves an issue faced in more typical pub/sub implementations where there is large risk for memory leaks if memory is not considered carefully. This is because each publisher knows about its subscribers and each subscriber knows about its publishers it is subscribed to. All these references can become very heavy and system slow down is enevitable in larger systems or in environments where resources are scarce.
 
-## Imlementation
+## Implementation
 
 ![here is a simple diagram showing the basic implementation of a event aggregator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/EventAggregator.JPG "here is a simple diagram showing the basic implementation of a event aggregator pattern")
 
@@ -339,7 +341,7 @@ The facade patternis an easy pattern to cover. It acts as one large abstraction 
 
 The facade pattern is good for abstracting away large systems, complex systems, legacy systems or any combonation of the three. This allows us to adhere to the open close principle as we will no longer need to change the functionality that is already working even if we want to change the overall interface it exposes. 
 
-## Imlementation
+## Implementation
 
 ![here is a simple diagram showing a bad implementation.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/badFacadePattern.JPG "here is a simple diagram showing a bad implementation")
 
