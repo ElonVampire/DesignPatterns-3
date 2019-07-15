@@ -269,7 +269,11 @@ Less noticable the command object has a isEndItem property. This is on the null 
 
 ![here is the second part of the command parser file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/commandparser2.JPG "here is the second part of the command parser file from the composite pattern")
 
+This is the second half of the command parser that defines how commands are actually parsed and passed through into the command chain. In this instance of a CLI example i have opted to make more complex commands abstracted with the IRegistedCommand interface. This is composed of two primary commands for example "add group" then N number of further parameters.
+
 ![here is a command file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/command.JPG "here is a command file from the composite pattern")
+
+
 
 ![here is a abstraction file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/abstraction.JPG "here is a abstraction file from the composite pattern")
 
