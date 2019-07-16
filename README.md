@@ -351,6 +351,10 @@ The implementation of the facade pattern is quite a basic one. Instead of having
 
 ![here is a simple diagram showing a bad implementation.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/badFacadePattern.JPG "here is a simple diagram showing a bad implementation")
 
+Above is a diagram of a system that could make a good use case for a facade pattern. We can see that the client has hard ties to the other parts of the system. By introducing a facade object to handle these calls and route to the correct parts of the system we are able to avoid such tight coupling.
+
 ![here is a simple diagram showing the basic implementation of a facade pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/GoodFacadePattern.JPG "here is a simple diagram showing the basic implementation of a facade pattern")
+
+This is the same diagram with a facade pattern introduced. Now the client code only needs to talk to the facade and it doesn't need to know about any of the systems it requires to run.
 
 ## Example run down
