@@ -347,6 +347,8 @@ The facade pattern is good for abstracting away large systems, complex systems, 
 
 ## Implementation
 
+The implementation of the facade pattern is quite a basic one. Instead of having multiple references from the client code that link to the other various subsystems we can decouple the client code and tie it to a facade object which will inturn route through to the other subsystems instead. By doing this we are able to consolidate the interface of various classes and subsystems into a single functional interface. This also allows us to perform task orchestration as we can have a public method that defines groups of related functionality. For example, if in the system we required the client code to create a user and to do this we needed to make multiple calls across the system to make this work. Instead of tying the client to these various parts of the system we can make a single call to the facade pattern which then handles calling these parts of the system without the client knowing.
+
 ![here is a simple diagram showing a bad implementation.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/badFacadePattern.JPG "here is a simple diagram showing a bad implementation")
 
 ![here is a simple diagram showing the basic implementation of a facade pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/GoodFacadePattern.JPG "here is a simple diagram showing the basic implementation of a facade pattern")
