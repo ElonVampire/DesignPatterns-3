@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Composite Pattern\\Commands",
-    "\\Composite Pattern\\Commands\\ConcreteCommands",
     "\\Decorator Pattern"
   ],
-  "SelectedNode": "\\Decorator Pattern\\Program.cs",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

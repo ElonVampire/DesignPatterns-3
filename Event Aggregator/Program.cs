@@ -6,7 +6,8 @@ namespace Event_Aggregator_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            EAController ctrl = new EAController();
+            ctrl.RunProgram();
         }
     }
 }
