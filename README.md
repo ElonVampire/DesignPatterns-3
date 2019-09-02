@@ -380,3 +380,13 @@ Above is a diagram of a system that could make a good use case for a facade patt
 This is the same diagram with a facade pattern introduced. Now the client code only needs to talk to the facade and it doesn't need to know about any of the systems it requires to run.
 
 ## Example run down
+
+#Factory Pattern
+
+The Factory Pattern
+
+## What it solves
+
+## Implementation
+
+## Example run down
