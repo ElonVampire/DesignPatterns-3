@@ -317,15 +317,19 @@ This is the abstract Gun class that gets decorated with attachments.
 
 ![here is the first part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunImp1.JPG "here is the first part of the concrete gun class file from the decorator pattern")
 
-Concrete gun class that implements the abstraction of gun.
+The first part of the concrete gun class that implements the abstraction of gun.
 
 ![here is the second part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunImp2.JPG "here is the second part of the concrete gun class file from the decorator pattern")
 
-
+The second part of the concrete gun class that implements the gun abstraction
 
 ![here is the abstract gun decorator file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunDec.JPG "here is the abstract gun decorator file from the decorator pattern")
 
+Gun decorator abstraction that implements the gun abstract class but also is extended by the concrete decorator classes
+
 ![here is a concrete gun decorator class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/silencer.JPG "here is a concrete gun decorator class file from the decorator pattern")
+
+The concrete gun decorator. In this case the silencer. 
 
 #  Event Aggregator
 
