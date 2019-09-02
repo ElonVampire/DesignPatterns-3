@@ -381,7 +381,7 @@ This is the same diagram with a facade pattern introduced. Now the client code o
 
 ## Example run down
 
-#Factory Pattern
+# Factory Pattern
 
 The Factory Pattern
 
