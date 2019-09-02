@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\DesignPatterns\\Bridge Pattern\\Bridge Pattern.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Bridge Pattern\\Bridge Pattern.csproj",
       "projectName": "Bridge Pattern",
-      "projectPath": "E:\\Repos\\DesignPatterns\\Bridge Pattern\\Bridge Pattern.csproj",
+      "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Bridge Pattern\\Bridge Pattern.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\DesignPatterns\\Bridge Pattern\\obj\\",
+      "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Bridge Pattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

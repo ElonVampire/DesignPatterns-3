@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\DesignPatterns\\Facade Pattern\\Facade Pattern.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Facade Pattern\\Facade Pattern.csproj",
       "projectName": "Facade Pattern",
-      "projectPath": "E:\\Repos\\DesignPatterns\\Facade Pattern\\Facade Pattern.csproj",
+      "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Facade Pattern\\Facade Pattern.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\DesignPatterns\\Facade Pattern\\obj\\",
+      "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Facade Pattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

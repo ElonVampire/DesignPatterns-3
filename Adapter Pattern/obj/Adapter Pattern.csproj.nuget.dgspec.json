@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj": {}
+    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj": {
+    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj",
         "projectName": "Adapter Pattern",
-        "projectPath": "E:\\Repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj",
+        "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Adapter Pattern\\Adapter Pattern.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\DesignPatterns\\Adapter Pattern\\obj\\",
+        "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Adapter Pattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

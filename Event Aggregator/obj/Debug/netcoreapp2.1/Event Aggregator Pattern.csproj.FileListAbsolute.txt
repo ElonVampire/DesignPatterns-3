@@ -2,3 +2,14 @@ E:\Repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregato
 E:\Repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.csproj.CoreCompileInputs.cache
 E:\Repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.AssemblyInfoInputs.cache
 E:\Repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.AssemblyInfo.cs
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\bin\Debug\netcoreapp2.1\Event Aggregator Pattern.deps.json
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\bin\Debug\netcoreapp2.1\Event Aggregator Pattern.runtimeconfig.json
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\bin\Debug\netcoreapp2.1\Event Aggregator Pattern.runtimeconfig.dev.json
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\bin\Debug\netcoreapp2.1\Event Aggregator Pattern.dll
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\bin\Debug\netcoreapp2.1\Event Aggregator Pattern.pdb
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.csprojAssemblyReference.cache
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.AssemblyInfoInputs.cache
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.AssemblyInfo.cs
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.dll
+C:\Users\Thomas\source\repos\DesignPatterns\Event Aggregator\obj\Debug\netcoreapp2.1\Event Aggregator Pattern.pdb

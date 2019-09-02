@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\DesignPatterns\\Event Aggregator\\Event Aggregator Pattern.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Event Aggregator\\Event Aggregator Pattern.csproj",
       "projectName": "Event Aggregator Pattern",
-      "projectPath": "E:\\Repos\\DesignPatterns\\Event Aggregator\\Event Aggregator Pattern.csproj",
+      "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Event Aggregator\\Event Aggregator Pattern.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\DesignPatterns\\Event Aggregator\\obj\\",
+      "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Event Aggregator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

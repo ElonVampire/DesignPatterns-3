@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\DesignPatterns\\Command Pattern\\Command Pattern.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Command Pattern\\Command Pattern.csproj",
       "projectName": "Command Pattern",
-      "projectPath": "E:\\Repos\\DesignPatterns\\Command Pattern\\Command Pattern.csproj",
+      "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Command Pattern\\Command Pattern.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\DesignPatterns\\Command Pattern\\obj\\",
+      "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Command Pattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj": {}
+    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj": {
+    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj",
         "projectName": "Builder Pattern",
-        "projectPath": "E:\\Repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj",
+        "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\BuilderPattern\\Builder Pattern.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\DesignPatterns\\BuilderPattern\\obj\\",
+        "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\BuilderPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

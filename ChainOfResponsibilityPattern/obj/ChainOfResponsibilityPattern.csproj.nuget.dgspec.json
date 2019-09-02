@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj": {}
+    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj": {
+    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
         "projectName": "ChainOfResponsibilityPattern",
-        "projectPath": "E:\\Repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
+        "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\DesignPatterns\\ChainOfResponsibilityPattern\\obj\\",
+        "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
