@@ -289,8 +289,6 @@ Above is the class definition for groups. we can see that it has a group name an
 
 ![here is a member file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/member.JPG "here is a member file from the composite pattern")
 
-
-
 # Decorator
 
 The decorator pattern allows developers to add functionality to existing classes without changing the base class that we need to add functionality. For example, in the real world we often want to be able to add functionality to legacy code. However, this doesnt always go down so well with altering legacy code which is so old it is considered voodoo magic in its implementation. Because of this we dont want to change the core implementation of this code as we know that it is getting the right values from its current set of functionality we just want to be able to extend this and alter a few methods and maybe add a new method entirely. We can do this by wrapping the legacy code in a decorator which allows for the core legacy functionality to remain intact while also being able to implement new logic to interact with the underlying logic as well as implement new stuff on top of this.
@@ -349,11 +347,21 @@ As mentioned breifly in the previous section the pattern solves an issue faced i
 
 ![here is a simple diagram showing the basic implementation of a event aggregator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/EventAggregator.JPG "here is a simple diagram showing the basic implementation of a event aggregator pattern")
 
+This is a conceptual model of the how the event aggregator should look like from a high level. Using weak references we keep subscribers up to date with any events that they are subscribed to. Also using weak references we are able to publish events to the event aggregator and then the event aggregator handles sending these events out to the concrete classes that implement that specific interface<event>
+
+![here is a simple diagram showing the basic implementation of a event aggregator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/EventAggregatorClassy.JPG "here is a simple diagram showing the basic implementation of a event aggregator pattern")
+
 ## Example run down
+
+![here is the controller class from the event aggregator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Event%20Aggregator/controller.JPG "here is the controller class from the event aggregator pattern")
+
+![here is a concrete subscriber from the event aggregator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Event%20Aggregator/subcThomas.JPG "here is a concrete subscriber from the event aggregator pattern")
+
+![here is another concrete subscriber from the event aggregator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Event%20Aggregator/subKris.JPG "here is a concrete subscriber from the event aggregator pattern")
 
 # Facade Pattern
 
-The facade patternis an easy pattern to cover. It acts as one large abstraction to a system or set of subsystems. Say for example a large legacy back end service was needed for a customer facing app to work. The dev team managed to refactor completely the front end to use the latest and greatest technologies but was being bogged down by making old legacy calls to a backend service, a facade pattern might be of use. Instead of refactoring the legacy code, we can abstract away the entire system to a facade that only exposes certain functionality or provides orchestration for a single call to the facade to run sets of related functionality.
+The facade pattern is an easy pattern to cover. It acts as one large abstraction to a system or set of subsystems. Say for example a large legacy back end service was needed for a customer facing app to work. The dev team managed to refactor completely the front end to use the latest and greatest technologies but was being bogged down by making old legacy calls to a backend service, a facade pattern might be of use. Instead of refactoring the legacy code, we can abstract away the entire system to a facade that only exposes certain functionality or provides orchestration for a single call to the facade to run sets of related functionality.
 
 ## What it solves
 
