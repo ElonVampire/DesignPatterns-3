@@ -281,7 +281,7 @@ This is the actual component of the compostite pattern. This defines how the sys
 
 ![here is a party model file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/partymodel.JPG "here is a party model file from the composite pattern")
 
-IParty is firstly implemented by PartyModel. I dont really need this class as all it does is act as a root for the composite structure. I could just make a group named root and have this as the party model that is interacted with in the commands.
+IParty is firstly implemented by PartyModel. I dont really need this cl ass as all it does is act as a root for the composite structure. I could just make a group named root and have this as the party model that is interacted with in the commands.
 
 ![here is a group file from the composite pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Composite%20Pattern/group.JPG "here is a group file from the composite pattern")
 
@@ -307,11 +307,21 @@ The decorator pattern solves the issue of edit code to fit new requirements when
 
 ![here is a program file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/program.JPG "here is a program file from the decorator pattern")
 
+This shows the main method from the code example we can see a concrete gun get made of type UMP45. Then we instantiate the silencedGun and pass through the base gun. This then gets then goes a layer deeper and wraps the silences UMP45 with a FMJ rounds. The output for this looks like the below screenshots.
+
+![here is for the first few decorated objects from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/output.JPG "here is the output for the first few decorated objects from the decorator pattern")
+
 ![here is a gun abstract class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gun.JPG "here is a gun abstract class file from the decorator pattern")
+
+This is the abstract Gun class that gets decorated with attachments.
 
 ![here is the first part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunImp1.JPG "here is the first part of the concrete gun class file from the decorator pattern")
 
+Concrete gun class that implements the abstraction of gun.
+
 ![here is the second part of the concrete gun class file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunImp2.JPG "here is the second part of the concrete gun class file from the decorator pattern")
+
+
 
 ![here is the abstract gun decorator file from the decorator pattern](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Code%20Snippets/Decorator%20Pattern/gunDec.JPG "here is the abstract gun decorator file from the decorator pattern")
 
