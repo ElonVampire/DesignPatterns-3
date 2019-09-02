@@ -299,9 +299,15 @@ The decorator pattern allows developers to add functionality to existing classes
 
 The decorator pattern solves the issue of edit code to fit new requirements when current functionality is already working. There is inherit failings within development if code is being changed after the functionality of that component has be verified. To properly follow the O of the SOLID programming principles we should not being editing the original components (open/closed priniciple). 
 
-## Imlementation
+## Implementation
+
+The decorator pattern was one of the easier patterns to wrap my head around so far. The basic principle is that we have an object that needs its functionality changed or functionality added in some way. We can do this by putting the original object within a decorator class that implements the same interface. The Decorator Base class has a reference to a component object that it stores and calls its methods upon. This reference could be to the original core object or it could be another decorator if the usecase needs multiple decorations of the same object.
+
+Within the concrete decorators that extend the Decorator abstract base class we define out behaviour that we need to change or add. This can be done by overriding the implementation of the methods defined in the component abstraction. 
 
 ![here is a simple diagram showing the basic implementation of a decorator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/DecoratorPattern.JPG "here is a simple diagram showing the basic implementation of a decorator pattern")
+
+This is the standard implementation of a decorator pattern. An interesting point here is that that loop back from the Decorator abstraction class, to to the Component Abstraction class. This is very similar to the composite pattern just covered, as the decorator can have other decorators or it could have a concrete components which would act as the leaf in the composite pattern.
 
 ## Example run down
 
@@ -339,7 +345,7 @@ The event aggregator was a pattern I struggled with originally. Primarly because
 
 As mentioned breifly in the previous section the pattern solves an issue faced in more typical pub/sub implementations where there is large risk for memory leaks if memory is not considered carefully. This is because each publisher knows about its subscribers and each subscriber knows about its publishers it is subscribed to. All these references can become very heavy and system slow down is enevitable in larger systems or in environments where resources are scarce.
 
-## Imlementation
+## Implementation
 
 ![here is a simple diagram showing the basic implementation of a event aggregator pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/EventAggregator.JPG "here is a simple diagram showing the basic implementation of a event aggregator pattern")
 
@@ -353,10 +359,16 @@ The facade patternis an easy pattern to cover. It acts as one large abstraction 
 
 The facade pattern is good for abstracting away large systems, complex systems, legacy systems or any combonation of the three. This allows us to adhere to the open close principle as we will no longer need to change the functionality that is already working even if we want to change the overall interface it exposes. 
 
-## Imlementation
+## Implementation
+
+The implementation of the facade pattern is quite a basic one. Instead of having multiple references from the client code that link to the other various subsystems we can decouple the client code and tie it to a facade object which will inturn route through to the other subsystems instead. By doing this we are able to consolidate the interface of various classes and subsystems into a single functional interface. This also allows us to perform task orchestration as we can have a public method that defines groups of related functionality. For example, if in the system we required the client code to create a user and to do this we needed to make multiple calls across the system to make this work. Instead of tying the client to these various parts of the system we can make a single call to the facade pattern which then handles calling these parts of the system without the client knowing.
 
 ![here is a simple diagram showing a bad implementation.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/badFacadePattern.JPG "here is a simple diagram showing a bad implementation")
 
+Above is a diagram of a system that could make a good use case for a facade pattern. We can see that the client has hard ties to the other parts of the system. By introducing a facade object to handle these calls and route to the correct parts of the system we are able to avoid such tight coupling.
+
 ![here is a simple diagram showing the basic implementation of a facade pattern.](https://raw.githubusercontent.com/ThomasMicol/DesignPatterns/master/Diagrams/GoodFacadePattern.JPG "here is a simple diagram showing the basic implementation of a facade pattern")
+
+This is the same diagram with a facade pattern introduced. Now the client code only needs to talk to the facade and it doesn't need to know about any of the systems it requires to run.
 
 ## Example run down
