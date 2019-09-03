@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
+      "projectUniqueName": "D:\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
       "projectName": "ChainOfResponsibilityPattern",
-      "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
+      "projectPath": "D:\\DesignPatterns\\ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\ChainOfResponsibilityPattern\\obj\\",
+      "outputPath": "D:\\DesignPatterns\\ChainOfResponsibilityPattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

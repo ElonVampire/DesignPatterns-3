@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj": {}
+    "D:\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj": {
+    "D:\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj",
+        "projectUniqueName": "D:\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj",
         "projectName": "Decorator Pattern",
-        "projectPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj",
+        "projectPath": "D:\\DesignPatterns\\Decorator Pattern\\Decorator Pattern.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\source\\repos\\DesignPatterns\\Decorator Pattern\\obj\\",
+        "outputPath": "D:\\DesignPatterns\\Decorator Pattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

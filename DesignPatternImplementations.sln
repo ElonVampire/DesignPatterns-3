@@ -11,15 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder Pattern", "BuilderP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{1E3E6901-EE39-4250-88E1-3ABC092AC5C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command Pattern", "Command Pattern\Command Pattern.csproj", "{8665E13B-F640-4E9F-BC47-99EE530DF2B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command Pattern", "Command Pattern\Command Pattern.csproj", "{8665E13B-F640-4E9F-BC47-99EE530DF2B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite Pattern", "Composite Pattern\Composite Pattern.csproj", "{A925B804-4C99-4CCD-9E24-582F7645AAF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite Pattern", "Composite Pattern\Composite Pattern.csproj", "{A925B804-4C99-4CCD-9E24-582F7645AAF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator Pattern", "Decorator Pattern\Decorator Pattern.csproj", "{D294CF30-B44A-4BC0-8CEF-F087F8987472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator Pattern", "Decorator Pattern\Decorator Pattern.csproj", "{D294CF30-B44A-4BC0-8CEF-F087F8987472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event Aggregator Pattern", "Event Aggregator\Event Aggregator Pattern.csproj", "{B25FF27D-0B90-413F-8136-C52F580E1E68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event Aggregator Pattern", "Event Aggregator\Event Aggregator Pattern.csproj", "{B25FF27D-0B90-413F-8136-C52F580E1E68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade Pattern", "Facade Pattern\Facade Pattern.csproj", "{9B9F8B13-E21D-4790-9BCE-082E81A5D01B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade Pattern", "Facade Pattern\Facade Pattern.csproj", "{9B9F8B13-E21D-4790-9BCE-082E81A5D01B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Factory Pattern", "Factory Pattern\Simple Factory Pattern.csproj", "{6831A52E-D528-472D-B929-F0924C4D2352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method Pattern", "Factory Method Pattern\Factory Method Pattern.csproj", "{FCDFE096-630A-4B11-BB33-FD73563E3200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight Pattern", "Flyweight Pattern\Flyweight Pattern.csproj", "{7275247C-4DEB-46F4-83EE-B26A305EF1B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{9B9F8B13-E21D-4790-9BCE-082E81A5D01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B9F8B13-E21D-4790-9BCE-082E81A5D01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B9F8B13-E21D-4790-9BCE-082E81A5D01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6831A52E-D528-472D-B929-F0924C4D2352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6831A52E-D528-472D-B929-F0924C4D2352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6831A52E-D528-472D-B929-F0924C4D2352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6831A52E-D528-472D-B929-F0924C4D2352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDFE096-630A-4B11-BB33-FD73563E3200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDFE096-630A-4B11-BB33-FD73563E3200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDFE096-630A-4B11-BB33-FD73563E3200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDFE096-630A-4B11-BB33-FD73563E3200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7275247C-4DEB-46F4-83EE-B26A305EF1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7275247C-4DEB-46F4-83EE-B26A305EF1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7275247C-4DEB-46F4-83EE-B26A305EF1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7275247C-4DEB-46F4-83EE-B26A305EF1B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
