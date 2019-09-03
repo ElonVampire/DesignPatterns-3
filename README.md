@@ -381,6 +381,23 @@ This is the same diagram with a facade pattern introduced. Now the client code o
 
 ## Example run down
 
+[program method ss]
+
+The facade pattern as shown in this example is quite basic. In the first screenshot we start with client code wanting to get a monster. A monster can have stats and a name randomly generated. To do this generation we pass the monsteer object to providers that allow for this functionality. 
+In the first screenshot are able to see that the client code is having to orchestrate the construction of this monster itself even though the same steps are repeated when a new monster is wanted.
+
+We can simplify this interface with the use of a facade. This is exactly what we do in the second screenshot. 
+
+[FAcade objwct ss]
+
+We can see here that we have simply moved the instantiation of the object and the passing to providers to a facade. This way the client code as shown below is able to just call a single method that handles the generation of the monster and returns an monster object with all the stats and the name already generated. 
+
+We even added in the ability in the facade to do some dependency injection as it takes in an INamer and an IStateProvider which allows for us to decouple our facade implementation from the types of generator services it uses. We can now pass in different generator services that comply to the interface and the facade pattern will work without having to be changed. This allows us to adhere to the OCP of the SOLID priciple set.
+
+Here is the output of the explained code above.
+
+[add output ss]
+
 # Factory Pattern
 
 The Factory Pattern
