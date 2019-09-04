@@ -400,9 +400,17 @@ Here is the output of the explained code above.
 
 # Factory Pattern
 
-The Factory Pattern
+The Factory Pattern is a creational pattern that allows us to remove the need to know what implementation of an abstraction at instantiation time. This is useful for when we have a set of concrete classes that implement an abstraction and we need one of these, but dont know specifically which one.
+
+This pattern is useful for refactoring out switch cases or large if else chains that only return an instantiation of an object and the logic is only used to decide which implementation should be needed.
+
+By seperating the object creation from the decision of which object needing to be created we are able to extend our system more freely without having to perform shotgun surgery to remove old concrete class instantiations. 
 
 ## What it solves
+
+This pattern solves the need for decoupling the creation of an object from the logic that decides the object to be created. by doing this we get the benefits of creating a more decoupled system such as being able to extend the implementation classes and include this into the factory with easy without having to set hard locations in the code where the concrete classes are instantiation.
+
+By doing this we are also able to adhere to the Open/Close Principle and we are also able to store which objects are to be created outside of the system. For example a database. 
 
 ## Implementation
 
