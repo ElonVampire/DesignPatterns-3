@@ -416,10 +416,10 @@ By doing this we are also able to adhere to the Open/Close Principle and we are 
 
 ## Example run down
 
-# Flyweight
+## Flyweight
 
-# What it solves
+## What it solves
 
-# Implementation
+## Implementation
 
-# Example Run Down
+## Example Run Down
